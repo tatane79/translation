@@ -1,0 +1,284 @@
+{
+  "COMMON": {
+    "ACTIONS": {
+      "APPLY": "Appliquer",
+      "COPY": "Copier",
+      "CREATE": "Créer",
+      "DELETE": "Supprimer",
+      "DUPLICATE": "Dupliquer",
+      "EDIT": "Modifier",
+      "HIDE": "Cacher",
+      "REMOVE": "Retirer",
+      "UPDATE": "Mettre à jour",
+      "VIEW": "Voir"
+    },
+    "AI": {
+      "AI_FLASHCARDS": "Flashcards IA"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Flashcard",
+      "FLASHCARD_other": "Flashcards",
+      "NOTE_one": "note",
+      "NOTE_other": "notes"
+    },
+    "NEW": "Nouveau"
+  },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Le document que vous tentez de partager semble vide. Entrez au moins {{minimum}} Rems, puis réessayez.",
+            "SUBDOCUMENT": "Un de vos sous-documents semble vide. Il ne sera pas publié tant qu'il ne possède pas au moins {{minimum}} Rems."
+          },
+          "NO_TITLE": {
+            "SRC": "Le document que vous essayez de partager n'a pas de titre. Vous devez en saisir un avant de le publier.",
+            "SUBDOCUMENT": "Un de vos sous-documents n'a pas de titre. Il ne sera pas publié tant qu'il n'en a pas."
+          }
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Voulez-vous aussi supprimer le partage du document ?",
+      "DELETE_CONFIRM_DIALOG": "Etes-vous sûr de vouloir supprimer ce document ?",
+      "DELETE_UNSHARE_ERROR": "Il y a eu une erreur à la suppression du partage de ce document. Essayez de supprimer son partage manuellement.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Vous êtes hors connexion. Essayez de supprimer le partage du document manuellement lorsque vous serez en ligne."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Ajouter un document imbriqué",
+      "CHANGE_DOCUMENT_STATUS": "Modifier le statut du document",
+      "CUSTOMIZE_SPACED_REPETITION": "Personnaliser la répétition espacée",
+      "DELETE": "Supprimer",
+      "EDIT_MODE": {
+        "READ": "Mode lecture seule",
+        "WRITE": "Mode édition"
+      },
+      "MULTI_SELECTION_MODE": "Sélectionner plusieurs Rems",
+      "MULTI_SELECTION_FOLDER": "Sélectionner plusieurs dossiers/documents",
+      "CHANGE_FOLDER_ICON": "Changer l'icône du dossier",
+      "CHANGE_DOCUMENT_ICON": "Changer l'icône du document",
+      "EXPORT": "Exporter",
+      "FIND_OR_FILTER": "Rechercher ou filtrer",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Cette option est obsolète et il est recommandé d'utiliser la méthode alternative consistant à appuyer sur <keycode /> et ensuite rechercher des références de texte à la place.",
+        "LABEL": "Trouver des références de texte"
+      },
+      "MARK_AS_DOCUMENT": "Marquer comme Document",
+      "MOVE": "Déplacer",
+      "OPEN_IN_ANOTHER_PANE": "Ouvrir dans un autre volet",
+      "PIN_TO_SIDEBAR": "Épingler sur la barre latérale",
+      "PRINT": "Imprimer",
+      "RENAME": "Renommer",
+      "SHOW_STUDY_BUTTON": "Bouton Afficher l'étude",
+      "STATS": "Statistiques",
+      "UNDO": "Annuler",
+      "UNPIN_FROM_SIDEBAR": "Détacher de la barre latérale",
+      "UNSHARE_DOCUMENT": "Supprimer le partage du document",
+      "VIEW_GRAPH": "Voir le graphique local",
+      "VIEW_TRASH": "Voir la corbeille"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Brouillon",
+      "FINISHED": "Terminé",
+      "PINNED": "Épinglé"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Ce fichier est mis en cache pour une visualisation hors ligne et n'a peut-être pas encore été téléchargé.",
+    "LOCAL_ONLY_WARN": "Ce fichier n'a pas pu être téléchargé et est stocké temporairement sur votre ordinateur.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Ce fichier n'a pas encore été téléchargé et est uniquement stocké localement.",
+    "NOT_FOUND": "Ce fichier est introuvable.",
+    "NOT_YET_UPLOADED": "Ce fichier n'a pas encore été téléchargé.",
+    "SNIPPING": {
+      "NON_PDF": "Veuillez essayer un autre outil de capture/collage ou contacter le support.",
+      "PDF": "Veuillez contacter le support."
+    }
+  },
+  "LANGUAGE": {
+    "LANGUAGE_WORD": "Langue",
+    "TRANSLATION_INFO_SETTINGS": "La traduction est toujours en cours ; vous rencontrerez un mélange d'anglais et de la langue sélectionnée.<br> Vous pouvez contribuer en examinant le <guideLink>tutoriel</guideLink>, puis en utilisant notre <editorLink>éditeur web</editorLink> pour aider aux traductions."
+  },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Votre document",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Votre document",
+      "BODY_2": "a obtenu {{viewCount, number}} vues"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "a été ajouté à"
+    },
+    "EMPTY_STATE_MESSAGE": "Vous êtes à jour ! Vous recevrez des notifications lorsque quelqu'un interagit avec le contenu partagé sur votre <profileLink>profil</profileLink>",
+    "EMPTY_STATE_TITLE": "Vous n'avez aucune notification récente",
+    "GROUP_DEFAULT": "Votre groupe",
+    "IMPORT": {
+      "BODY": "Quelqu'un a importé votre document"
+    },
+    "INVITE": {
+      "ACCEPT": "Accepter l'invitation",
+      "BODY": "vous a invité à rejoindre",
+      "REJECT": "Rejeter"
+    },
+    "NEW_COMMENT": {
+      "BODY": "a commenté ",
+      "BODY_ARTICLE": "a commenté votre document",
+      "BODY_COMMENT": "a répondu à votre commentaire",
+      "BODY_GROUP": "a envoyé une discussion à votre groupe"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "vous suit"
+    },
+    "NEW_LIKE": {
+      "BODY": "a aimé"
+    },
+    "POPUP_TITLE": "Notifications récentes"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Créer un dossier"
+        },
+        "PAGE_1": {
+          "TITLE": "Ajouter une puce"
+        },
+        "PAGE_2": {
+          "TITLE": "Créer une Flashcard"
+        },
+        "PAGE_3": {
+          "TITLE": "Structurer les Notes avec des onglets"
+        }
+      }
+    }
+  },
+  "PAGES": {
+    "ALL_NOTES": {
+      "SORT": {
+        "ASCENDING": "A -> Z",
+        "BY_CREATION_TIME": "Par date de création",
+        "BY_MODIFICATION": "Par date de modification",
+        "BY_TITLE": "Par titre",
+        "DESCENDING": "Z -> A",
+        "OLDEST_CREATION_FIRST": "Du plus ancien au plus récent",
+        "OLDEST_FIRST": "Du plus ancien au plus récent",
+        "RECENTLY_CREATED": "Du plus récent au plus ancien",
+        "RECENTLY_MODIFIED": "Modifié récemment"
+      },
+      "TITLE": "Toutes les Notes"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Cartes de base",
+        "BASIC_CARDS_TOOLTIP": "Générez des Flashcards questions-réponses de base à partir du texte sélectionné.",
+        "CLOZE_CARDS": "Cartes texte à trous",
+        "CLOZE_CARDS_TOOLTIP": "Généré des Flashcards texte à trous à partir du texte sélectionné.",
+        "CONCEPT_CARDS": "Cartes conceptuelles",
+        "CONCEPT_CARDS_TOOLTIP": "Générer des flashcards descripteurs de concepts à partir du texte sélectionné.",
+        "GENERATE_SECTION": "GENERER"
+      },
+      "CLOZE_BTN_TOOLTIP": "Flashcard texte à trous",
+      "COPY_IMAGE": "Copier l'image",
+      "COPY_TEXT": "Copier en Texte Brut",
+      "HIGHLIGHT": "Surligner",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Créer des Flashcards Occlusion",
+      "NO_TEXT_IN_PDF_WARN": "Ce fichier ne contient pas de calque de texte, mais vous pouvez toujours utiliser des zones surlignées pour annoter.",
+      "NOTE_BTN_TOOLTIP": "Note"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Options de liaison avancées",
+      "DELETE_WARNING": "Ce surlignage a {{notesCount, number}} {{ notesWord }} . Êtes-vous sûr de vouloir le supprimer ?",
+      "TURN_INTO_CONCEPT": "Transformer en Concept",
+      "VIEW_REFERENCES": "Voir les références"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Surbrillance de zone ( {{keyName}} + Glisser)",
+      "NUMBER_OF_PAGES_TOOLTIP": "nombre de pages",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Activer/désactiver le document par défaut"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Changer le thème",
+      "DOWNLOAD_PDF": "Télécharger le PDF",
+      "LEARN_MORE": "En savoir plus",
+      "OPEN_WEBPAGE_EXTERNALLY": "Ouvrir la page Web en externe",
+      "PDF_SETTINGS": "Paramètres",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Mise en surbrillance automatique",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Surligner automatiquement après sélection du texte.",
+        "DISABLE_HEADER_BUTTONS": "Désactiver les boutons d'en-tête",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Désactiver les boutons d'en-tête («) qui apparaissent dans le lecteur.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Surligner les mots en un clin d'œil",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Lors du surlignage, sélectionner les mots entiers."
+      },
+      "REFETCH_PAGE": "Recharger la page",
+      "REFETCH_PAGE_TOOLTIP": "Cette page ne peut pas être rechargée si elle contient des éléments en surbrillance existants.",
+      "SEARCH_IN_PDF": "Chercher dans le PDF",
+      "SPLIT_PANES": "Séparer les volets",
+      "SPLIT_PANES_TOOLTIP": "Séparer l’éditeur et la visionneuse PDF en deux volets",
+      "THEMES": {
+        "CLASSIC_INVERT": "Inversion classique",
+        "DARK": "Sombre",
+        "LIGHT": "Claire",
+        "SOLARISED": "Solarisé",
+        "USE_REMNOTE_THEME": "Utiliser le thème RemNote"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Fait",
+      "INPUT_PLACEHOLDER": "Chercher"
+    }
+  },
+  "POPUPS": {
+    "CREATE_CONTENT_OPTIONS": {
+      "DOCUMENT": {
+        "DESCRIPTION": "Organisez les flashcards et les notes dans des documents.",
+        "TITLE": "Document"
+      },
+      "FOLDER": {
+        "DESCRIPTION": "Organiser les documents dans des dossiers.",
+        "TITLE": "Dossier"
+      },
+      "QUICK_ADD": {
+        "DESCRIPTION": "Capturez vos idées à la volée !",
+        "TITLE": "Ajout rapide"
+      },
+      "TABLE_TAG": {
+        "DESCRIPTION": "Créez une balise à utiliser avec des tableaux et des modèles.",
+        "TITLE": "Étiquette & Tableau"
+      },
+      "TODAYS_DOCUMENT": {
+        "DESCRIPTION": "Les Documents Quotidiens sont parfaits pour la journalisation, les listes de tâches et plus encore.",
+        "TITLE": "Document du jour"
+      },
+      "UPLOAD_FILE": {
+        "DESCRIPTION": "Mettre en surbrillance et référencer des PDF, PPT, documents Word, etc.",
+        "FEATURE_NAME": "Surligner un PDF",
+        "PAYWALL": "Vous avez atteint votre limite de téléchargements de fichiers PDF.",
+        "TITLE": "Télécharger et annoter le fichier",
+        "todo_for_the_item_below": "déplacer ceci dans un objet de nom de fonctionnalité globale ?"
+      }
+    }
+  },
+  "POWERUPS": {
+    "POWERUP_one": "Powerup",
+    "POWERUP_other": "Powerups"
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "ADVANCED": {
+        "KEYWORDS": "Prise en charge de la correction du bug de recherche Rewire"
+      },
+      "ADVANCED_TITLE": "Paramètres avancés",
+      "AUTHENTICATION": {
+        "KEYWORDS": "Déconnexion Déconnexion Méthode de connexion Google Ajouter Déconnexion Se connecter S'inscrire"
+      },
+      "AUTHENTICATION_TITLE": "Authentification",
+      "CACHING": {
+        "DESCRIPTION": "Mettez en cache les images lorsqu'elles sont chargées afin qu'elles puissent être visualisées hors ligne.",
+        "NUMBER_DESCRIPTION": "Définissez le nombre maximal d'images à mettre en cache. Lorsque la limite est atteinte, les images les plus anciennes seront effacées du cache."
+      }
+    }
+  }
+}

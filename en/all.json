@@ -28,7 +28,7 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "The document you are trying to share looks a bit empty. Please add at least {{minimum}} rems, then try again.",
+            "SRC": "The document you are trying to share looks a bit empty. Please add at least {{minimum}} Rems, then try again.",
             "SUBDOCUMENT": "One of your subdocuments looks a bit empty. It won't be published until it has {{minimum}} rems."
           },
           "NO_TITLE": {
@@ -769,9 +769,9 @@
     "CREATE_TEMPLATE": "Create Template",
     "HIDE_CONFIGURATION": "Hide Configuration",
     "NEW_TEMPLATE": "New Template",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "PROPERTY_one": "Property",
     "PROPERTY_other": "Properties",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Property",
