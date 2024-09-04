@@ -277,7 +277,440 @@
       "AUTHENTICATION_TITLE": "Authentification",
       "CACHING": {
         "DESCRIPTION": "Mettez en cache les images lorsqu'elles sont chargées afin qu'elles puissent être visualisées hors ligne.",
-        "NUMBER_DESCRIPTION": "Définissez le nombre maximal d'images à mettre en cache. Lorsque la limite est atteinte, les images les plus anciennes seront effacées du cache."
+        "NUMBER_DESCRIPTION": "Définissez le nombre maximal d'images à mettre en cache. Lorsque la limite est atteinte, les images les plus anciennes seront effacées du cache.",
+        "NUMBER_TITLE": "Nombre maximal d'images en cache",
+        "TITLE": "Mise en cache",
+        "TOGGLE_DESCRIPTION": "Lorsque cette option est désactivée, toutes les images en cache seront effacées.",
+        "TOGGLE_TITLE": "Activer le cache"
+      },
+      "DANGER_ZONE": {
+        "KEYWORDS": "journal de synchronisation supprimer le compte réinitialiser procédure pas à pas progression réinitialiser le tutoriel paramètres de compte avancés",
+        "TITLE": "Zone de danger"
+      },
+      "DANGER_ZONE_TITLE": "Zone de danger",
+      "EXPORT_IMPORT": {
+        "KEYWORDS": "Exporter la sauvegarde Exporter Roam Dynalist Logseq Notion Evernote Obsidian"
+      },
+      "IMPORT_EXPORT_TITLE": "Importation et Exportation",
+      "MY_PROFILE": "Mon Profil",
+      "NAVIGATION": {
+        "KEYWORDS": "Exporter et Sauvegarder Corbeille Afficher Rem supprimé Importer Base de Connaissances Afficher Toutes les Cartes Télécharger une sauvegarde quotidienne Paramètres avancés Supprimer tous les Rem"
+      },
+      "NAVIGATION_TITLE": "Navigation",
+      "PRIVACY": {
+        "KEYWORDS": "confidentialité",
+        "TITLE": "Confidentialité"
+      },
+      "PRIVACY_NOTE": "Confidentialité : Lisez notre <policyLink>politique de confidentialité</policyLink>, ou modifiez vos paramètres dans notre <hubLink>Centre de confidentialité</hubLink>.",
+      "PROFILE": {
+        "KEYWORDS": "Profil d'utilisateur personnel"
+      },
+      "PROFILE_TITLE": "Profil",
+      "SUPPORT": {
+        "KEYWORDS": "ticket de support exécuter aide",
+        "TITLE": "Support"
+      },
+      "SYNCING": {
+        "KEYWORDS": "Forcer la synchronisation des images et des PDF",
+        "TITLE": "Synchronisation"
+      },
+      "VERSION": {
+        "KEYWORDS": "version",
+        "TITLE": "Version de l'application"
+      }
+    },
+    "EARN_CREDIT": {
+      "APPLY_CREDIT": "Appliquez votre crédit",
+      "COPIED": "Copié!",
+      "COPYLINK": "Copier le lien",
+      "CREATE_ACCOUNT": "Créer un compte pour inviter des amis",
+      "CREDIT_BALANCE": "Solde créditeur",
+      "CREDIT_BALANCE_TEXT": "Vous avez <bold>{{userCredit}}</bold> crédit(s) restant et vous avez gagné <bold>{{userCreditEarned}}</bold> crédit(s) au total. {{months}} mois ou mois restants de RemNote Pro gratuit.<br /><br /> Abonnez-vous à Pro pour commencer à utiliser votre crédit ! Aucun frais ne vous sera facturé avant l'épuisement de votre crédit.",
+      "EMAIL_PLACEHOLDER": "curiousfriend@gmail.com",
+      "ENTER_VALID_EMAIL": "Entrez une adresse email valide !",
+      "FRIEND_ALREADY_ON_REMNOTE": "Votre ami est déjà sur RemNote",
+      "FRIENDS_TITLE": "Amis",
+      "HANG_ON": "Ne quittez pas",
+      "INVITE": "Inviter",
+      "INVITE_COPIED": "Lien d'invitation copié !",
+      "INVITE_EMAIL": "Invitation par e-mail",
+      "INVITE_ERROR": "Une erreur s'est produite. Veuillez réessayer ultérieurement.",
+      "INVITE_FRIENDS_EARN_CREDIT": "Gagnez un crédit RemNote {{monthlyPrice}} pour chaque ami que vous invitez ! Ils recevront également un crédit {{monthlyPrice}} pour commencer.",
+      "INVITE_FRIENDS_REMNOTE": "Invitez vos amis sur RemNote !",
+      "INVITE_TEXT": "Inviter des amis",
+      "INVITED_YOU": " (vous a invité)",
+      "KEYWORDS": "inviter des amis gagner des crédits changer d'abonnement gagner des crédits RemNote gratuit envoyer tweet e-mail choisir un plan à vie apprentissage pro détail des fonctionnalités options de tarification",
+      "NOT_CONFIRMED_EMAIL": " (n'a pas confirmé l'email)",
+      "SEND_INVITE": "Envoyer une invitation",
+      "SHARE_LINK": "Partager le lien",
+      "TITLE": "Gagner des crédits",
+      "TOAST_RENEW": "Vos crédits seront appliqués automatiquement lors du renouvellement de votre abonnement actuel.",
+      "TOAST_SUBSCRIBE": "Vos crédits seront appliqués automatiquement lorsque vous vous abonnerez à RemNote Pro. Choisissez un forfait ci-dessous pour commencer !",
+      "VERIFY_EMAIL": "Pour inviter quelqu'un, vérifiez d'abord votre e-mail."
+    },
+    "EDITOR": {
+      "DATES_AND_TIMES": {
+        "DATE_FORMATTING": {
+          "DESCRIPTION": "Afficher les dates dans RemNote dans ce format.",
+          "TITLE": "Format de date"
+        },
+        "DATE_FORMATTING_CUSTOM": {
+          "DESCRIPTION": "Formatez les dates comme vous le souhaitez en utilisant les options fournies.",
+          "TITLE": "Format de date personnalisé"
+        },
+        "TIME_FORMATTING": {
+          "DESCRIPTION": "Formater les heures avec /time comme ceci.",
+          "TITLE": "Format d'heure"
+        },
+        "WEEK_STARTS_ON_MONDAY": {
+          "DESCRIPTION": "Au choix d'une date, commencer chaque ligne du calendrier au lundi plutôt qu'au dimanche.",
+          "TITLE": "La semaine commence le lundi"
+        }
+      },
+      "GENERAL": {
+        "CAPITALIZE_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "A la création d'un Rem en appuyant sur Cmd+Retour dans une recherche, mettre son nom en majuscule.",
+            "PC": "A la création d'un Rem en appuyant sur Ctrl+Entrée dans une recherche, mettre son nom en majuscule."
+          }
+        },
+        "CREATE_CONCEPTS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "A la création d'un Rem en appuyant sur Cmd+Retour dans une recherche, le transformer en concept.",
+            "PC": "A la création d'un Rem en appuyant sur Ctrl+Entrée dans une recherche, le transformer en concept."
+          },
+          "TITLE": "Créer des Concepts à partir de la recherche"
+        },
+        "CREATE_STUBS_FROM_SEARCH": {
+          "DESCRIPTION": {
+            "MAC": "A la création d'un Rem en appuyant sur Cmd+Retour dans une recherche, l'étiqueter avec « Stub ».",
+            "PC": "A la création d'un Rem en appuyant sur Cmd+Retour dans une recherche, l'étiqueter avec « Stub »."
+          },
+          "TITLE": "Créer des stubs à partir de la recherche"
+        },
+        "ENABLE_SPELLCHECK": {
+          "DESCRIPTION": "Vérifiez si le Rem actuellement sélectionné comporte des fautes de frappe. Le correcteur orthographique utilise la ou les langues sélectionnées dans votre navigateur ou votre système d'exploitation.",
+          "TITLE": "Activer la vérification orthographique"
+        },
+        "INSERT_EMOJIS_AS_REFERENCES": {
+          "DESCRIPTION": "Créer une référence lors de la sélection d'un emoji à partir de la recherche %%.",
+          "TITLE": "Insérer des émojis comme références"
+        }
+      }
+    },
+    "EDITOR_INTERFACE": {
+      "ENABLE_ZOOM_INTO_BULLET": {
+        "LABEL": "Au clic sur le pointeur à puces, afficher le rem en tant que page complète",
+        "TITLE": "Activer le zoom dans la puce"
+      },
+      "PREVIEW_REM_ON_HOVER": {
+        "LABEL": "Au survol sur une référence, afficher un aperçu de son contenu.",
+        "TITLE": "Aperçu des références au survol"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Agrandir ou réduire la taille de puce en fonction du nombre de descendants.",
+        "TITLE": "Mettre à l'échelle des puces de Rem repliés"
+      },
+      "SINGLE_CLICK_REFERENCES_TO_OPEN": {
+        "LABEL": "Au clic sur une référence, accéder immédiatement à sa cible, plutôt que d'ouvrir le menu de référence. (Vous pouvez toujours afficher le menu de référence en cliquant avec le bouton droit de la souris.)",
+        "TITLE": "Ouverture des Références en un seul clic"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Animez l'ajout ou la suppression de Rems dans l'éditeur.",
+        "TITLE": "Animer l'éditeur en douceur"
+      }
+    },
+    "FLASHCARDS": {
+      "DAILY_TARGET": {
+        "MAXIMUM_DAILY_TARGET": {
+          "TITLE": "But",
+          "DESCRIPTION": "Pratiquez au moins autant de flashcards chaque jour pour créer des séquences."
+        },
+        "TODAYS_TARGET": "Objectif lissé d'aujourd'hui :",
+        "TODAYS_TARGET_EXPLANATION": "Si RemNote prédit qu'au cours de la semaine prochaine, vous aurez en moyenne moins de cartes à pratiquer que votre objectif quotidien configuré, nous réduirons temporairement votre objectif quotidien afin que vous ayez un nombre à peu près égal de cartes chaque jour, plutôt que beaucoup au début et moins à la fin."
+      },
+      "GENERAL": {
+        "AUTOPLAY_MEDIA": {
+          "DESCRIPTION": "Lire automatiquement le contenu audio ou vidéo sur des flashcards.",
+          "TITLE": "Lecture automatique des médias"
+        },
+        "AUTOPLAY_TEXT_TO_SPEECH": {
+          "DESCRIPTION": "A l'affichage d'une flashcard, lire automatiquement le texte pour le recto de la carte et le verso de la carte une fois révélé.",
+          "TITLE": "Lecture automatique du texte"
+        },
+        "LEARN_AHEAD_LIMIT": {
+          "DESCRIPTION": "Une fois que vous avez pratiqué toutes les cartes à réviser, dans combien de temps pouvons-nous prendre les cartes qui ne sont pas encore à réviser ? Cela vous évite d'avoir à vous entraîner à nouveau très bientôt.",
+          "TITLE": "Limite pour Apprendre à l'avance"
+        },
+        "LEECH_THRESHOLD": {
+          "DESCRIPTION": "Émettre un avertissement après avoir appuyé plusieurs fois sur « Oublié » sur une carte difficile.<leechArticle> En savoir plus sur les \"boulets\".</leechArticle>",
+          "TITLE": "Seuil \"boulet\""
+        },
+        "NEW_CARDS_PER_DAY": {
+          "DESCRIPTION": "Incluez au maximum ce nombre de flashcards nouvellement créées dans votre file d'attente de flashcards chaque jour. De cette façon, les nouvelles cartes entreront dans votre file d'attente à un rythme quotidien régulier, plutôt que par lots géants.",
+          "TITLE": "Nombre maximal de nouvelles cartes par jour"
+        },
+        "NEXT_DAY_STARTS_AT": {
+          "DESCRIPTION": "Définissez l’heure à laquelle de nouvelles cartes apparaîtront dans votre file d’attente chaque jour.",
+          "TITLE": "Le jour suivant commence à"
+        },
+        "RESET_ALL": {
+          "CONFIRM_MESSAGE": "Êtes-vous sûr de vouloir réinitialiser tous les paramètres des flashcards à leurs valeurs par défaut ?",
+          "DESCRIPTION": "Restaurez tous les paramètres des Flashcards à leurs valeurs par défaut.",
+          "TITLE": "Réinitialiser les paramètres de Flashcard"
+        },
+        "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "Afficher uniquement les boutons « Oublié » et « Mémorisé » pour les flashcards.",
+          "TITLE": "Boutons de flashcards simplifiés"
+        },
+        "STALE_CARDS_PER_DAY": {
+          "DESCRIPTION": "Réintroduisez au maximum ce nombre de flashcards obsolètes dans votre file d'attente de flashcards chaque jour. Les flashcards obsolètes sont celles qui sont temporairement retirées de la file d'attente parce que vous ne les avez pas étudiées depuis longtemps et les réapprendre toutes d'un coup serait épuisant.",
+          "TITLE": "Nombre maximal de cartes périmées par jour"
+        },
+        "TEXT_TO_SPEECH_VOICE": {
+          "DESCRIPTION": "La voix utilisée pour la synthèse vocale. Notez que certaines voix ne fonctionnent que pour certaines langues.",
+          "TITLE": "Voix pour la Synthèse Vocale",
+          "SAMPLE": "Les mitochondries sont la centrale énergétique de la cellule."
+        },
+        "TEXT_TO_SPEECH_SPEED": {
+          "DESCRIPTION": "La vitesse à laquelle le texte de la Flashcard est lu.",
+          "TITLE": "Vitesse de lecture"
+        },
+        "TYPE_ANSWER": {
+          "DESCRIPTION": "Affichez une zone de texte au recto de chaque flashcard et comparez ce que vous tapez à la réponse au verso de la carte.",
+          "TITLE": "Tapez la réponse"
+        }
+      },
+      "ORDERING": {
+        "DOCUMENT_CLUSTERS": {
+          "DESCRIPTION": "Préférer pratiquer les Rems à partir de documents connectés ensemble.",
+          "TITLE": "Groupes de documents"
+        },
+        "HIERARCHY_CLUSTERS": {
+          "DESCRIPTION": "Préférer pratiquer les Rems liés les uns aux autres hiérarchiquement ensemble.",
+          "TITLE": "Groupes hiérarchiques"
+        },
+        "REFERENCE_CLUSTERS": {
+          "DESCRIPTION": "Préférer pratiquer des Rems qui se référencent les uns les autres ensemble.",
+          "TITLE": "Groupes de référence"
+        },
+        "TAG_CLUSTERS": {
+          "DESCRIPTION": "Préférer pratiquer les Rems avec le même tag ensemble.",
+          "TITLE": "Groupes d'étiquettes"
+        }
+      },
+      "STATISTICS": {
+        "MAXIMUM_FLASHCARD_RESPONSE_TIME": {
+          "DESCRIPTION": "Si vous prenez plus de temps pour répondre à une flashcard (par exemple, parce que vous vous êtes absenté quelques minutes), seul ce temps sera comptabilisé dans vos statistiques.",
+          "TITLE": "Délai de réponse aux flashcards"
+        }
+      },
+      "VISUAL": {
+        "SHOW_NEXT_REVIEW_TIMES": {
+          "DESCRIPTION": "Lorsque vous pratiquez avec des répétitions espacées, affichez le temps jusqu'à la prochaine révision sur chaque bouton de réponse.",
+          "TITLE": "Afficher les heures de révision suivantes"
+        }
+      }
+    },
+    "GLOBAL_INTERFACE": {
+      "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
+        "KEYWORDS": "communauté linguistique documents recherche flashcards partager partagé télécharger trouver",
+        "TITLE": "Flashcards Partagées Chercher Langue"
+      },
+      "DARK_MODE": {
+        "LABEL": "Utilisez ce jeu de couleurs.",
+        "TITLE": "Mode sombre"
+      },
+      "FULL_WIDTH": {
+        "LABEL": "Etirer les documents pour utiliser toute la largeur de l'écran.",
+        "TITLE": "Largeur totale"
+      },
+      "IN_APP_SUGGESTIONS": {
+        "KEYWORDS": "info-bulles aide support apprentissage tutoriel",
+        "LABEL": "Affichez en haut de votre document des conseils sur les fonctionnalités de RemNote que vous pourriez essayer",
+        "TITLE": "Conseils d'intégration en haut de la page"
+      },
+      "INTERFACE": {
+        "KEYWORDS": "Traduction de langue lang traduire i18n",
+        "TITLE": "Langue de l'interface RemNote"
+      },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "KEYWORDS": "dans l'application barre latérale gauche didacticiels info-bulles aide support apprendre tutoriel",
+        "LABEL": "Afficher des didacticiels sur les fonctionnalités de RemNote en bas de votre barre latérale.",
+        "TITLE": "Tutoriels intégrés à l'application"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "KEYWORDS": "info-bulles aide support apprentissage tutoriel",
+        "LABEL": "Afficher des conseils sur les raccourcis clavier que vous utilisez actuellement dans le coin de l'écran.",
+        "TITLE": "Conseils sur les raccourcis clavier"
+      }
+    },
+    "KEYBOARD_SHORTCUTS": {
+      "CHANGE_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Personnalisez les raccourcis clavier en mappant les touches.",
+        "KEYWORDS": "personnaliser les raccourcis clavier en mappant des raccourcis clavier",
+        "TITLE": "Modifier les raccourcis clavier"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Par défaut, utilisez les raccourcis clavier hérités (avant la mise à jour d'août 2020).",
+        "TITLE": "Raccourcis clavier par défaut"
+      },
+      "DOUBLE_SLASH_FOR_COMMAND_MENU": {
+        "DESCRIPTION": "Taper // au lieu de / pour déclencher des commandes lors de l'édition de Rems.",
+        "TITLE": "Double slash pour le menu de commande"
+      },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "En tapant Entrée sur un Rem sans contenu qui n'est pas au niveau supérieur du document, augmenter le retrait d'un niveau. (Si cette option est désactivée, rester au même niveau et laissez un Rem vide.)",
+        "TITLE": "Taper Entrée pour augmenter le retrait"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Divisez le texte en Rems distincts en appuyant sur Opt+Retour depuis le milieu du Rem.",
+          "PC": "Divisez le texte en Rems distincts en appuyant sur Alt+Entrée depuis le milieu du Rem."
+        },
+        "TITLE": {
+          "MAC": "Fractionner avec Opt+Return",
+          "PC": "Diviser avec Alt+Entrée"
+        }
+      }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "ARTICLE_VIEWS": {
+          "LABEL": "Etre averti lorsqu'un document partagé commence à gagner des vues significatives",
+          "TITLE": "Notifications de consultation de documents"
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Etre averti lorsqu'un document est ajouté à mon groupe",
+          "TITLE": "Document ajouté à la notification de groupe"
+        },
+        "INVITE": {
+          "LABEL": "Etre averti lorsque j'ai été invité à un groupe",
+          "TITLE": "Notifications d'invitation"
+        },
+        "NEW_COMMENT": {
+          "LABEL": "Etre averti lorsque quelqu'un commente mon document partagé",
+          "TITLE": "Notifications de commentaires"
+        },
+        "NEW_FOLLOWER": {
+          "LABEL": "Etre averti lorsque quelqu'un me suit",
+          "TITLE": "Notifications des abonnés"
+        },
+        "NEW_LIKE": {
+          "LABEL": "Etre averti lorsqu'un document que j'ai partagé est apprécié",
+          "TITLE": "Notification des \"Like\""
+        },
+        "STREAK": {
+          "LABEL": "Recevoir des notifications quotidiennes pour maintenir mon rythme d'étude !",
+          "TITLE": "Notifications de séquences"
+        }
+      },
+      "ENABLE_COMMUNITY_LABEL": "Recevoir des notifications instantanées lorsque quelqu'un interagit avec mon contenu partagé",
+      "ENABLE_COMMUNITY_TITLE": "Notifications de Flashcards partagées",
+      "ENABLE_DUE_CARDS_LABEL": "Afficher le nombre total de cartes à réviser sous forme de badge sur l'icône de l'application RemNote sur mon écran d'accueil",
+      "ENABLE_DUE_CARDS_TITLE": "Badge de cartes à réviser",
+      "ENABLE_EMAIL_LABEL": "Recevoir des notifications directement dans ma boîte de réception",
+      "ENABLE_EMAIL_TITLE": "Activer les notifications de la communauté par e-mail",
+      "ENABLE_PUSH_LABEL": "Recevoir des notifications directement sur mon appareil",
+      "ENABLE_PUSH_TITLE": "Notifications push",
+      "ENABLE_STREAK_DESCRIPTION": "Recevoir des rappels quotidiens à 18h sur ma séquence de flashcards",
+      "ENABLE_STREAK_TITLE": "Notifications de séquences mobiles",
+      "PUSH_ENABLE_MESSAGE": "Les notifications push ne sont pas configurées sur cet appareil. Cliquez ici pour les configurer !",
+      "TOGGLE_LABEL": "Contrôler les notifications que je souhaite recevoir directement sur mon appareil",
+      "TOGGLE_TITLE": "Prévenez-moi lorsque :"
+    },
+    "PLANS": {
+      "KEYWORDS": "inviter des amis modifier le plan d'abonnement gagner des crédits gratuitement remnote envoyer un tweet e-mail choisir le plan apprentissage continu pro répartition des fonctionnalités options de tarification",
+      "TITLE": "Abonnement"
+    },
+    "SIDEBAR": {
+      "CUSTOMIZE_SIDEBAR_SECTIONS": {
+        "TITLE": "Organisation de la barre latérale"
+      },
+      "DOCUMENT_STATUSES": {
+        "LABEL": "Organisez les documents dans les catégories Brouillon, Terminé et Épinglé.",
+        "TITLE": "Statuts des documents"
+      },
+      "PRIVACY_NOTE": "Confidentialité : Lisez notre<policyLink> politique de confidentialité</policyLink> , ou modifiez vos paramètres dans notre<hubLink> Centre de confidentialité</hubLink> .",
+      "SORT_SIDEBAR": {
+        "KEYWORDS": "organiser les barres latérales trier de A à Z",
+        "TITLE": "Trier la barre latérale"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Toutes les notes",
+    "LABEL_COMMUNITY": "Flashcards partagées",
+    "LABEL_EDIT_LATER": "Modifier plus tard",
+    "LABEL_FLASHCARDS": "Flashcards",
+    "LABEL_INTERACTIVE_TOUR": "Visite interactive",
+    "LABEL_ONBOARDING_CALL": "Planifier un appel",
+    "LABEL_RESUME_INTERACTIVE_TOUR": "Reprendre la visite interactive",
+    "LABEL_TODAYS_NOTE": "Note du jour",
+    "LABEL_TUTORIALS": "Tutoriels",
+    "TOOLTIP_EDIT_LATER_QUEUE": "Ouvrir la file \"Editer plus tard\"",
+    "TOOLTIP_FLASHCARD_HOME": "Accéder à la page d'accueil des Flashcards"
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "ENTER_URL": "Entrer l'URL",
+      "INVALID_URL": "URL invalide",
+      "LABEL": "Lien",
+      "LINK": "Lien",
+      "LINK_WITH_COUNT_one": "{{count, number}} Lien",
+      "LINK_WITH_COUNT_other": "{{count, number}} Liens",
+      "OPEN_IN_READER": "Ouvrir dans le Lecteur",
+      "SEARCH_PLACEHOLDER": "Coller un lien ou rechercher une référence"
+    },
+    "UPLOAD_SOURCE": {
+      "EMPTY": "Déposer les fichiers PDF, les documents Word, les PPT et<moreLink> plus</moreLink> ici!",
+      "INVALID": "Désolé, RemNote ne prend pas en charge ce type de fichier.",
+      "IMPORT_INSTEAD": "RemNote ne prend pas en charge ce type de fichier. Cependant, nous pourrions peut-être importer les notes ou les flashcards de ce fichier ! Essayez de choisir « Importer » dans le menu du compte en haut à gauche.",
+      "LABEL": "Téléverser",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
+      "SELECT_FILES": "Sélectionner les fichiers",
+      "SELECT_FILES_TO_UPLOAD": "Sélectionner les fichiers à téléverser",
+      "UPLOADING": "Téléversement en cours..."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "EMPTY": "Déposer les fichiers PDF, les documents Word, les PPT et<moreLink> plus</moreLink> ici!",
+      "INVALID": "Format de fichier incorrect !",
+      "LABEL": "Recherche d'images",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
+      "SELECT_FILES": "Sélectionner les fichiers",
+      "SELECT_FILES_TO_UPLOAD": "Sélectionnez les fichiers à télécharger",
+      "UPLOADING": "Téléversement en cours..."
+    }
+  },
+  "TABLES": {
+    "MENUS": {
+      "FILTER": {
+        "ADD_ADVANCED_FILTER": "Ajouter un filtre avancé",
+        "FILTER_TITLE": "Filtre",
+        "NO_PROPERTIES_AVAILABLE": "Aucune propriété n'est disponible ; ajoutez-en une nouvelle !"
+      },
+      "SORT": {
+        "SORT_TITLE": "Trier"
+      },
+      "TABLE_CONFIGURATION": {
+        "ADD_LIST_VIEW_TITLE": "Ajouter une vue liste",
+        "ADD_TABLE_VIEW_TITLE": "Ajouter une vue tableau",
+        "ALL": "Tous",
+        "CELL_LIST_HEIGHT": {
+          "CELL_LIST_HEIGHT_TITLE": "Hauteur de la cellule",
+          "CELL_LIST_HEIGHT_TOOLTIP_MESSAGE": "Les cellules peuvent contenir plusieurs puces ! Limitez la hauteur des cellules pour une visualisation plus facile.",
+          "COMFORTABLE_TITLE": "Confortable",
+          "COMPACT_TITLE": "Compact",
+          "FULL_TITLE": "Plein"
+        },
+        "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Configurer les étiquettes et modifier les modèles",
+        "DELETE_LIST": "Supprimer la liste",
+        "DELETE_TABLE": "Supprimer le tableau",
+        "DUPLICATE_LIST_VIEW_TITLE": "Affichage de la liste en double"
       }
     }
   }
