@@ -372,7 +372,8 @@
           "DESCRIPTION": {
             "MAC": "A la création d'un Rem en appuyant sur Cmd+Retour dans une recherche, mettre son nom en majuscule.",
             "PC": "A la création d'un Rem en appuyant sur Ctrl+Entrée dans une recherche, mettre son nom en majuscule."
-          }
+          },
+          "TITLE": "Capitaliser à partir de la recherche"
         },
         "CREATE_CONCEPTS_FROM_SEARCH": {
           "DESCRIPTION": {
@@ -710,8 +711,78 @@
         "CONFIGURE_TAG_EDIT_TEMPLATES_TITLE": "Configurer les étiquettes et modifier les modèles",
         "DELETE_LIST": "Supprimer la liste",
         "DELETE_TABLE": "Supprimer le tableau",
-        "DUPLICATE_LIST_VIEW_TITLE": "Affichage de la liste en double"
+        "DUPLICATE_LIST_VIEW_TITLE": "Affichage de la liste en double",
+        "DUPLICATE_TABLE_VIEW_TITLE": "Dupliquer la vue du tableau",
+        "DUPLICATE_VIEW_MESSAGE_COMMON": "Dupliquez une vue pour appliquer un nouveau filtre, un nouveau tri ou plus encore ! Le contenu est partagé entre les vues de la même source, vous ne vous retrouverez donc pas avec des instances dupliquées accidentelles.",
+        "INCLUDE_NESTED_DESCENDANTS": "Inclure les descendants imbriqués",
+        "LIST_CONFIGURATION_TITLE": "Liste",
+        "MOVE_LIST_TO_TITLE": "Déplacer la liste vers",
+        "MOVE_TABLE_TO_TITLE": "Déplacer la table vers",
+        "OPEN_IN_ANOTHER_PANE_TITLE": "Ouvrir dans un autre volet",
+        "PROPERTIES_CONFIGURATION_TITLE": "Configurer",
+        "PROPERTIES_TITLE": "Propriétés",
+        "SHOW_VERTICAL_LINES_TITLE": "Afficher les lignes verticales",
+        "TABLE_CONFIGURATION_TITLE": "Tableau",
+        "VIEW_AS": {
+          "LIST_VIEW": "Liste",
+          "NORMAL_PORTAL_VIEW": "Portail",
+          "TABLE_VIEW": "Tableau",
+          "VIEW_AS_TITLE": "Voir comme"
+        },
+        "ZOOM_IN_TO_LIST_TITLE": "Zoom sur la liste",
+        "ZOOM_IN_TO_TABLE_TITLE": "Zoom sur le tableau"
+      },
+      "TAG": {
+        "EDIT_TABLE_NAME": "Modifier le nom du tableau",
+        "PRESS_TO_SAVE": "Appuyez sur ↩ pour enregistrer",
+        "RENAME_TAG": "Renommer l'étiquette",
+        "TAG_TITLE": "Nom de l'étiquette",
+        "VIEW_TAG": "Voir l'étiquette"
       }
-    }
+    },
+    "PRIMARY_COLUMN_TITLE": "Nom",
+    "TABLE_CREATION": {
+      "EXISTING_TAG": {
+        "DESCRIPTION": "Connectez-vous à une source {{viewName}} existante.",
+        "TITLE": "Utiliser l'étiquette existante"
+      },
+      "NEW_TAG": {
+        "DESCRIPTION": "Commencez avec un {{viewName}} avec une nouvelle étiquette.",
+        "TITLE": "Créer un nouveau {{viewName}} + Etiquette"
+      }
+    },
+    "UNTITLED_PROPERTY_TITLE": "Propriété sans titre"
+  },
+  "TAGS": {
+    "INSERT_PROPERTIES": "Insérer des propriétés",
+    "PINNED_TAGS": "Mots-clés épinglés",
+    "SEARCH_PLACEHOLDER": "Rechercher une étiquette existante pour l'ajouter",
+    "TAG": "Étiquette",
+    "TAG_WITH_COUNT_one": "Etiquette {{count, number}} ",
+    "TAG_WITH_COUNT_other": "Etiquettes {{count, number}}",
+    "YOUR_TAGS": "Vos étiquettes"
+  },
+  "TEMPLATES": {
+    "ADD_NEW_PROPERTY": "Ajouter une nouvelle propriété",
+    "AUTO_APPLY": "Appliquer automatiquement",
+    "AUTO_APPLY_HELP_TEXT": "Ce modèle sera automatiquement appliqué à toutes les lignes du tableau, ou à tous les Rems marqués avec le modèle.",
+    "CREATE_TEMPLATE": "Créer un modèle",
+    "HIDE_CONFIGURATION": "Masquer la configuration",
+    "NEW_TEMPLATE": "Nouveau modèle",
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Les propriétés décrivent une étiquette. Par exemple, pour une étiquette appelée « Livre », ajoutez des propriétés nommées Auteur, Genre, Statut de lecture, etc."
+    },
+    "PROPERTY_one": "Propriété",
+    "PROPERTY_other": "Propriétés",
+    "PROPERTY_WITH_COUNT_one": "Propriété {{count, number}}",
+    "PROPERTY_WITH_COUNT_other": "Propriétés {{count, number}} ",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Définir comme modèle à application automatique",
+    "TEMPLATE_one": "Modèle",
+    "TEMPLATE_other": "Modèles",
+    "TEMPLATE_WITH_COUNT_one": "Modèle {{count, number}}",
+    "TEMPLATE_WITH_COUNT_other": "Modèles {{count, number}}",
+    "TEMPLATES_HELP_TEXT": "Un modèle d'étiquette est un document RemNote qui peut être automatiquement copié dans des Rems balisés. Ajoutez des en-têtes, des listes de contrôle et bien plus encore directement dans votre modèle.",
+    "TURN_OFF_AUTO_APPLY": "Désactiver l'application automatique",
+    "VIEW_CONFIGURATION": "Configurer l'étiquette"
   }
 }
